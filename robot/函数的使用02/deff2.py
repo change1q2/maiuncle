@@ -7,5 +7,9 @@
 备注：
 '''
 from robot.函数的使用02 import deff1
+from robot.函数的使用02 import deff
 #在其他文件中调用可以使用：调用文件命.调用方法名
-deff1.hello("SW", 'JJ')
+name = "seak"
+robot_name = "阿库娅"
+deff1.hello(name,robot_name)
+deff.icon()
